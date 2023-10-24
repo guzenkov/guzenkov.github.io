@@ -1,0 +1,9 @@
+mkdir -pv
+rmdir -p
+
+cat -T    #stampa tabulazione com ^I
+cat -E    #stampa i newline come $
+cat -v    #stampa altri caratteri non stampabili
+cat -n    #antepone a ciascuna riga il relativo numero
+cat -b    #antepone i numeri di riga alle righe non vuote
+cat -s    #riduce ogni sequenza di ridge vuote a un'unica riga vuota
